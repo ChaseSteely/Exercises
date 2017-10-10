@@ -1,0 +1,18 @@
+.item {
+    padding: 20px;
+}
+
+.crafts {
+    border: 5px dashed tomato;
+    margin-bottom: 10px;
+}
+
+.furniture {
+    border: 5px dotted skyblue;
+    margin-bottom: 10px;
+}
+
+.electronics {
+    border: 5px solid olivedrab;
+    margin-bottom: 10px;
+}
