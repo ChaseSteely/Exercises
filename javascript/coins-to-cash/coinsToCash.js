@@ -13,17 +13,14 @@ for (let key in piggyBank) {
     if (piggyBank.hasOwnProperty(key)) {
         let element = piggyBank[key];
         console.log(element)
+        
     }
 }
+dollarAmount += piggyBank.pennies/100
+dollarAmount += piggyBank.quarters/4;
+dollarAmount += piggyBank.dimes/10;
+dollarAmount += piggyBank.nickles/20;
 
-dollarAmount = piggyBank.pennies/100;
 console.log('$' + dollarAmount.toFixed(2))
 
-dollarAmount = piggyBank.quarters/4;
-console.log('$' + dollarAmount.toFixed(2))
 
-dollarAmount = piggyBank.dimes/10;
-console.log('$' + dollarAmount.toFixed(2))
-
-dollarAmount = piggyBank.nickles/20;
-console.log('$' + dollarAmount.toFixed(2))
