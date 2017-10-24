@@ -1,0 +1,15 @@
+.planetList{
+    display: inline;
+}
+
+.planetList li {
+    display: inline;
+}
+
+.firstList, .secondList, .thirdList{
+    padding: 25px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+
+
