@@ -1,7 +1,8 @@
 const update = require("./nav")
 const productData = require("./productFactory")
 const printProduct = require("./productController")
+const printReview = require("./reviewController")
+const reviewData = require("./reviewFactory")
 update()
-ProductsPage = {}
-ProductsPage.db = printProduct(productData)
-printProduct(ProductsPage.db)
+printProduct(productData)
+printReview(reviewData)

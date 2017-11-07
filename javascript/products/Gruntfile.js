@@ -26,7 +26,7 @@ module.exports = function (grunt) {
             build: {
                 files: [{
                     expand: true,
-                    cwd: "scripts",
+                    cwd: "build",
                     src: "*.js",
                     dest: "build",
                     ext: ".min.js"
@@ -48,5 +48,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-eslint");
     grunt.loadNpmTasks("grunt-browserify");
     // Default task(s).
-    grunt.registerTask("default", ["eslint", "browserify", "watch", "uglify"]);
+    grunt.registerTask("default", ["eslint", "browserify", "watch"]);
 };

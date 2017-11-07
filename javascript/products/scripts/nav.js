@@ -5,9 +5,9 @@ const populateNav = () => {
     <section class="navBar">
         <ul class="navList">
         <li class="name">Betsy</li>
-            <li><a>Categories</a></li>
-            <li><a>Orders</a></li>
-            <li><a>Logout</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Logout</a></li>
         </ul>
         </section>
     `
