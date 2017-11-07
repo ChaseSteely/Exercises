@@ -1,0 +1,17 @@
+#nav {
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+}
+
+.name {
+    float: left;
+    font-weight: bold;
+}
+
+img {
+    width: 600px;
+    height: 420px;
+}
