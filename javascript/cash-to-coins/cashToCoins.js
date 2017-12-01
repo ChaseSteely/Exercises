@@ -1,4 +1,4 @@
-let dollarAmount = 1.25
+let dollarAmount = .04
 const piggyBank = {
     quarters: 0,
     dimes: 0,
